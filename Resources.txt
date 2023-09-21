@@ -1,0 +1,3 @@
+Great Resource with complete implementation, check the methods though
+-----------------
+https://www.kaggle.com/code/ozdemirh/diabetes-prediction-with-artificial-neural-network
