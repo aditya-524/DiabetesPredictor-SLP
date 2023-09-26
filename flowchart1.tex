@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\begin{document}
+
+\begin{tikzpicture}[node distance=2cm]
+
+% Nodes
+\node (start) [startstop] {Start};
+\node (import) [io, below of=start] {Import libraries};
+\node (function) [process, below of=import] {Define \texttt{train\_and\_evaluate} function};
+\node (init) [process, below of=function] {Initialize lists};
+\node (create) [process, below of=init] {Create a figure};
+\node (loop) [process, below of=create] {For each fold};
+\node (split) [process, below of=loop] {Split data};
+\node (standardize) [process, below of=split] {Standardize input features};
+\node (model) [process, below of=standardize] {Create NN model};
+\node (compile) [process, below of=model] {Compile the model};
+\node (train) [process, below of=compile] {Train the model};
+\node (predict) [process, below of=train] {Predict on test set};
+\node (plot) [process, below of=predict] {Plot curves};
+\node (append) [process, below of=plot] {Append scores};
+\node (measure) [process, below of=append] {Measure execution time};
+\node (calculate) [process, below of=measure] {Calculate mean and std};
+\node (print) [io, below of=calculate] {Print results};
+\node (end) [startstop, below of=print] {End};
+
+% Arrows
+\draw [arrow] (start) -- (import);
+\draw [arrow] (import) -- (function);
+\draw [arrow] (function) -- (init);
+\draw [arrow] (init) -- (create);
+\draw [arrow] (create) -- (loop);
+\draw [arrow] (loop) -- (split);
+\draw [arrow] (split) -- (standardize);
+\draw [arrow] (standardize) -- (model);
+\draw [arrow] (model) -- (compile);
+\draw [arrow] (compile) -- (train);
+\draw [arrow] (train) -- (predict);
+\draw [arrow] (predict) -- (plot);
+\draw [arrow] (plot) -- (append);
+\draw [arrow] (append) -- (measure);
+\draw [arrow] (measure) -- (calculate);
+\draw [arrow] (calculate) -- (print);
+\draw [arrow] (print) -- (end);
+
+\end{tikzpicture}
+
+\end{document}
