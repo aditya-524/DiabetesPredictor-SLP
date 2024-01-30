@@ -2,7 +2,7 @@
 ## About The Project
 This is a repository for implementing, describing, and testing a Single Layer Perceptron for predicting diabetes. The results are in form of a short conference paper.
 I achieved an accuracy of 80.58%. In the project i used 5 fold cross validation with shuffling for determining the ideal learning rate. I used the [PIMA Indians dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
-.The training was evaluated using evaluation metrics such as Accuracy, Execution and AUC on various learning rates. For a detailed analysis of the results, please refer to [paper]() & [code](). Below are some of the results from the paper.
+.The training was evaluated using evaluation metrics such as Accuracy, Execution and AUC on various learning rates. For a detailed analysis of the results, please refer to [paper](https://github.com/aditya-524/DL_Ass1/blob/main/SLP%20for%20Diabetes%20Classification.pdf) & [code](https://github.com/aditya-524/DL_Ass1/blob/main/SLP_PIMA_BinaryClassification.ipynb). Below are some of the results from the paper.
 <p align="center">
   <img src="RP_Code/1.png" alt="First Image" width="44%" />
   <img src="RP_Code/2.png" alt="Second Image" width="45%" />
@@ -36,12 +36,11 @@ The code utilizes the python packages as such
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- Authors -->
 ## Authors
-Project Link:[]()
+Project Link:[Project](https://github.com/aditya-524/DL_Ass1)
 <br>~~Kaggle Notebook:[]()~~ 
 <br>~~Collab Notebook:[]()~~ 
 
