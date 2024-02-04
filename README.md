@@ -1,3 +1,6 @@
+<!-- PROJECT -->
+# Diabetes Prediction using Single layer perceptron
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is a repository for implementing, describing, and testing a Single Layer Perceptron for predicting diabetes. The results are in form of a short conference paper.
@@ -40,7 +43,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- Authors -->
 ## Authors
-Project Link:[Project](https://github.com/aditya-524/DL_Ass1)
+Project Link:[Project](https://github.com/aditya-524/DiabetesPredictor-SLP)
 <br>~~Kaggle Notebook:[]()~~ 
 <br>~~Collab Notebook:[]()~~ 
 
