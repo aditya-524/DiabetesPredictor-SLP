@@ -56,4 +56,4 @@ Project Link:[Project](https://github.com/aditya-524/DiabetesPredictor-SLP)
 </picture>
 
 > [!NOTE]
-> This is part of the Assignment of COMP SCI 7318 - Deep Learning Fundamentals, University of adelaide, ~~which had the worst Teaching assistants imo :vomiting_face:~~. 
+> This is part of the Assignment of COMP SCI 7318 - Deep Learning Fundamentals, University of adelaide.
